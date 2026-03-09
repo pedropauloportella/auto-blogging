@@ -1,5 +1,5 @@
 {
-	"name": "auto-blogging-whit-ai",
+	"name": "auto-blogging",
 	"description": "Build a personal website, blog, or portfolio with Astro.",
 	"cloudflare": {
 		"label": "Astro Framework Starter",
