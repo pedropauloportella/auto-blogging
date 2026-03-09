@@ -1,0 +1,8 @@
+name = "auto-blogging"
+main = "src/index.ts"
+compatibility_date = "2026-03-09"
+kv_namespaces = [
+  { binding = "POSTS_KV", id = "REPLACE_POSTS_KV_ID" },
+  { binding = "SESSIONS_KV", id = "REPLACE_SESSIONS_KV_ID" },
+  { binding = "USERS_KV", id = "REPLACE_USERS_KV_ID" }
+]
