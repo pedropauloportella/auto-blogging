@@ -10,9 +10,9 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '24'
+          node-version: 22
       - name: Install deps
-        run: npm ci
+        run: npm install -y && npm ci 
       - name: Build site
         run: npm run build
       - name: Deploy to GitHub Pages
